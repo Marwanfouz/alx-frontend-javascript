@@ -7,3 +7,4 @@ export default function getResponseFromAPI() {
     reject(new Error('The fake API is not working currently'));
   });
 }
+
