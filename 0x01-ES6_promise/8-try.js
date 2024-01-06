@@ -2,5 +2,9 @@ export default function divideFunction(numerator, denominator) {
   if (denominator === 0) {
     throw new Error('cannot divide by 0');
   }
-  return numerator / denominator;
+  try {
+    return numerator / denominator;
+  } catch (e) {
+    return e;
+  }
 }
