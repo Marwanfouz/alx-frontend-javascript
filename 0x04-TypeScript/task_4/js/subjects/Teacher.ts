@@ -6,4 +6,10 @@ namespace Subjects {
     experienceTeachingReact?: number;
     experienceTeachingJava?: number;
   }
+
+  export const cTeacher: Teacher = {
+    firstName: 'Marwan',
+    lastName: 'Fouz',
+    experienceTeachingC: 10,
+  };
 }
